@@ -202,21 +202,11 @@ text-shadow: 0 0 5px #000;
 	background-color: black;
 	width: 500px;
 	height: 800px;
-	position: absolute;
+	position: relative;
 	top: 100px;
 	text-align: center;
 	font-size: 50px;
 	display: inline-block;
-
-
-}
-#box5-card1{
-	right: 51%;
-}
-
-#box5-card2{
-	left: 51%;
-
 }
 #box5-card2-title a{
 	text-decoration: none;
