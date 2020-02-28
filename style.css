@@ -1,0 +1,417 @@
+@font-face{
+	font-family: font1;
+	src:url("1.ttf");
+}
+@font-face{
+	font-family: font2;
+	src:url("2.otf");
+	}
+	@font-face{
+	font-family: font3;
+	src:url("3.otf");
+}
+body{
+	background-color: #000000;
+	margin: 0;
+	/*padding-top: 60px;*/
+	color: #ffffff;
+	text-decoration: none;
+}a
+#top-menu{
+	position: sticky;
+	height: 60px;
+	width: 100%;
+	background-color: #000;
+	top: 0;
+	z-index: 10000;
+	
+}
+.top-menu-btn{
+	position: relative;
+	color: #fff;
+	padding: 10px;
+	height: 40px;
+	display: inline-block;
+	font-size: 35px;
+}
+.vec{
+	height: 20px;
+	transition-duration: 200ms;
+	transition-property: transform;
+}
+.top-menu-btn:hover .vec{
+	transform: rotateX(180deg);
+}
+.top-menu-btn:hover{
+	color: yellow;
+	text-shadow: 0 0 10px yellow;
+	background-color: rgba(255,255,0,0.1);
+}
+.box{
+	position: relative;
+	width: 100%;
+}
+#box1-img{
+	width: 100%;
+}
+#box1-title{
+	position: absolute;
+	left: 75%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	width: 50%;
+	text-align: center;
+	font-size: 35px;
+}
+#box1-title b{
+	font-size: 60px;
+}
+#box1-title a{
+	text-decoration: none;
+}
+.border-btn{ /* box1-btn */
+	border: solid #fff 3px;
+	border-radius: 5px;
+	color: #fff;
+	font-size: 35px;
+	padding: 10px;
+
+	margin: 10px;
+	transition-duration: 200ms;
+	transition-property: padding, margin;
+	text-shadow: 0 0 10px #000;
+}
+.box1-btn{
+	display: inline-block;
+}
+.border-btn:hover{ /* box1-btn */
+	padding: 15px;
+	margin: 5px;
+}
+#box2-img{
+	width: 100%;
+}
+#box2-title-img1{
+height: 150px;
+display: inline-block;
+}
+#box2-title-img2{
+height:  150px;
+display: inline-block;
+}
+#box2-title-img3{
+height: 150px;
+display: inline-block;
+}
+#box2-title{
+position: absolute;
+transform: translate(-50%,-50%);
+text-align: center;
+top: 59%;
+left: 26%;
+font-size: 25px;
+width: 52%;
+text-shadow: 0 0 5px #000;
+}
+#text{
+	font-size: 70px;
+}
+#box2-title-btn{
+	display: inline-block;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.solid-gold-btn{
+	font-size: 35px;
+	color: #fff;
+	padding: 10px;
+	margin: 10px;
+	border: solid #974 3px;
+	text-shadow: 0 0 10px #000;
+	transition-duration: 200ms;
+	text-align: center;
+	transition-property:padding,margin;
+	background-color: #974 3px;
+	border-radius: 5px;
+
+}
+.gold-btn{
+	background-color: #974;
+	border-color: #fff;
+}
+#footer{
+	background-color: #000000;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #000000;
+	font-size: 20px;
+	text-align: center;
+	box-shadow: 0 0 50px;
+}
+#footer a{
+	color: #aaa;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.footer-a{
+	display: inline-block;
+	margin: 20px;
+}
+
+.tmb-menu{
+	
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background-image: url(images/gggg.png);
+	transition-duration: 200ms;
+	transition-property: transform;
+	transform: translateY(-50%) scaleY(0) ;
+
+}
+
+.top-menu-btn:hover .tmb-menu{
+	/*height: 258px;*/
+	transform: translateY(0) scaleY(1);
+}
+.tmb-menu a {
+	text-decoration: none; 
+
+}
+#tmb1-menu .tmb-menu-btn{
+	width: 350px;
+}
+#tmb2-menu .tmb-menu-btn{
+	width: 300px;
+}
+#tmb3-menu .tmb-menu-btn{
+	width: 250px;
+}
+.tmb-menu-btn{
+	display: inline-block;
+}
+
+#box5 {
+	background-color: black;
+	height: 1000px;
+}
+.box5-card{
+	background-color: black;
+	width: 500px;
+	height: 800px;
+	position: absolute;
+	top: 100px;
+	text-align: center;
+	font-size: 50px;
+
+
+
+}
+#box5-card1{
+	right: 51%;
+}
+
+#box5-card2{
+	left: 51%;
+
+}
+#box5-card2-title a{
+	text-decoration: none;
+}
+#box5-card1-title a{
+	text-decoration: none;
+}
+.box5-card-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%
+
+}
+
+.box5-card-gradient{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to top, rgba(253,233,16,1) 10%, rgba(0,0,0,0));
+
+}
+
+.box5-card-title{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 5%;
+
+}
+.box-card-title-btn{
+	display: inline-block;
+}
+.triangle{
+position: relative;
+height: 30px;
+width: 30px;
+display: inline-block;
+
+}
+
+.triangle-line{
+position: absolute;
+height: 2px;
+width: 100%;
+border-radius: 2px;
+background-color: black;
+}
+
+.triangle-line-top{
+ transform: translate(0, 6px) rotate(30deg);
+}
+
+.triangle-line-bottom{
+	transform: translate(-1px, 22px) rotate(330deg);
+}
+
+.triangle-line-left{
+	transform: translate(-13px, 13px) rotate(90deg);
+
+}
+#box6{
+	height: 800px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #111;
+	color: #fff;
+	text-align: center;
+
+}
+#box6-more{
+	position: relative;
+	display: inline-block;
+	width:800px;
+	font-size: 30px;
+	text-align: left;
+	vertical-align: top;
+	margin-right: 50px;
+
+}
+#box6-simple{
+	position: relative;
+	display: inline-block;
+	width: 400px;
+	min-height: 500px;
+	background-color: #eee;
+	color: #000;
+}
+#box6-simple-btns{
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: #bbb;
+}
+
+.box6-simple-btn{
+	position:absolute; 
+	font-size: 40px;
+	height: 100%;
+	text-align: center;https://js.foundation/about/donate
+}
+#box6-simple-btn1{
+    width:120px;
+    left:0 ;
+    
+    color: black;
+}
+#box6-simple-btn2{
+	width: 120px;
+    left: 120px;
+    border-bottom: solid black 1px;
+    color: black;
+}
+#box6-simple-btn3{
+	width:160px ;
+    left:240px ;
+    border-bottom: solid black 1px;
+   color: black;
+}
+.box6-simple-main-img{
+	width :100%;
+}
+#box6-simple-main{
+	padding-top: 2px;
+}
+#box6-more1{
+	font-family: font3;
+}
+#box6-more2{
+display: none;
+font-family: font2;	
+}
+#box6-more3{
+display: none;
+font-family: font3;	
+}
+#box6-simple-main2{
+display: none;	
+}
+#box6-simple-main3{
+display: none;	
+}
+#box7{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #222;
+	text-align: center;
+}
+
+.box7-card{
+	position: relative;
+	height: 700px;
+	width: 400px;
+	background-color: grey;
+	margin: 10px;
+	display: inline-block;
+	transition-duration: 1s;
+	transition-property: transform, box-shadow;
+	 overflow-y: hidden;
+
+}
+.box7-card:hover{
+	transform: translateY(-10px);
+	box-shadow: 0 20px 30px black;
+}
+.box7-card-img{
+	width: 100%;
+
+}
+
+
+#top{
+	height: 50px;
+	background-color: #111;
+	text-align: right;
+	z-index: 10;
+}
+.top-img{
+	height: 100%;
+
+}
+.box7-card-date{
+	text-align: left;
+	color: #ff0;
+	font-size: #ddd;
+}
+.box7-card-name{
+	text-align: left;
+	color: #ff0;
+	font-size: #ddd;
+}
+.box7-card-info{
+	text-align: left;
+	color: #ff0;
+	font-size: #ddd;
+}
+
